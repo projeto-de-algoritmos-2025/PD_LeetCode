@@ -10,7 +10,7 @@
 | 22/2021924 | Víctor Hugo Lima Schmidt               |
 
 ## Sobre 
-Para explorar o conteúdo do tópico de Programação Dinâmica, a dupla escolheu três exercícios na plataforma online [LeetCode](https://leetcode.com/): quatro de nível difícil.
+Para explorar o conteúdo do tópico de Programação Dinâmica, a dupla escolheu quatro exercícios de nível DIFÍCIL na plataforma online [LeetCode](https://leetcode.com/).
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
