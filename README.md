@@ -26,8 +26,12 @@ Para resolver o problema, modelei cada operação de compra–venda como um inte
 
 ![188](/assets/188.png)
 
+[1255. Maximum Score Words Formed by Letters - Nível Difícil](https://leetcode.com/problems/maximum-score-words-formed-by-letters/?envType=problem-list-v2&envId=dynamic-programming)
+
+[458. Poor Pigs - Nível Difícil](https://leetcode.com/problems/poor-pigs/description/?envType=problem-list-v2&envId=dynamic-programming)
+
 ## Instalação 
-**Linguagem**: Scala<br>
+**Linguagem**: Scala, Ruby<br>
 
 
 
