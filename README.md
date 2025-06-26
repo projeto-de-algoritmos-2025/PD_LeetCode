@@ -37,7 +37,7 @@ A decisão entre as opções é feita pela escolha do máximo entre os dois cami
 
 ![1255](./assets/1255.png)
 
-[458. Poor Pigs - Nível Difícil](https://leetcode.com/problems/poor-pigs/description/?envType=problem-list-v2&envId=dynamic-programming)
+[466. Count The Repetitions - Nível Difícil](https://leetcode.com/problems/count-the-repetitions/description/?envType=problem-list-v2&envId=dynamic-programming)
 
 ## Instalação
 
