@@ -14,7 +14,7 @@ Para explorar o conteúdo do tópico de Programação Dinâmica, a dupla escolhe
 
 ## Screenshots
 
-[123. 123. Best Time to Buy and Sell Stock III - Nível Difícil](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/)
+[123. Best Time to Buy and Sell Stock III - Nível Difícil](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/)
 
 Para resolver o problema 123, modeleio cada possível transação “comprar em j, vender em d” como um item de peso 1 e valor `prices[d] – prices[j]` e construo a tabela `dp[t][d]`, em que `dp[t][d]` é o lucro máximo usando até `t` itens (transações) nos primeiros `d+1` dias; para cada `t = 1,2` e cada dia `d`, escolho entre não usar transação que termine em `d` (`dp[t][d-1]`) ou usar a melhor transação que termine em `d`, que calcula o valor `prices[d] + bestDiff` com `bestDiff = max_{j<d}(dp[t-1][j] - prices[j])`; ao final, `dp[2][n-1]` contém o lucro máximo possível, resultando num algoritmo O(n·k) com `k=2`, seguindo a formulação clássica de Knapsack DP.
 
