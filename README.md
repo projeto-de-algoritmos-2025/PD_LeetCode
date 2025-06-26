@@ -28,12 +28,17 @@ Para resolver o problema, modelei cada operação de compra–venda como um inte
 
 [1255. Maximum Score Words Formed by Letters - Nível Difícil](https://leetcode.com/problems/maximum-score-words-formed-by-letters/?envType=problem-list-v2&envId=dynamic-programming)
 
+Para resolver o problema de maximizar a pontuação de um subconjunto de palavras construídas com letras disponíveis (com restrição de uso único por letra), modelo cada subconjunto válido de palavras como um item com peso igual à soma das frequências de letras e valor igual à soma das pontuações das letras em cada palavra. Utilizo backtracking para explorar todas as 2ⁿ combinações possíveis (inclusão/exclusão de cada palavra), mantendo o estado atual de letras disponíveis (um contador). Para cada chamada, escolho entre:
+
+- não usar a palavra atual, mantendo a pontuação atual;
+- usar a palavra, se possível (todas as letras disponíveis), atualizando o contador de letras e somando sua pontuação.
+
+A decisão entre as opções é feita pela escolha do máximo entre os dois caminhos. A pontuação de cada palavra é pré-calculada com base no vetor de scores.
+
+![1255](./assets/1255.png)
+
 [458. Poor Pigs - Nível Difícil](https://leetcode.com/problems/poor-pigs/description/?envType=problem-list-v2&envId=dynamic-programming)
 
-## Instalação 
-**Linguagem**: Scala, Ruby<br>
+## Instalação
 
-
-
-
-
+**Linguagem**: Scala, Ruby.
