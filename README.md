@@ -39,6 +39,10 @@ A decisão entre as opções é feita pela escolha do máximo entre os dois cami
 
 [466. Count The Repetitions - Nível Difícil](https://leetcode.com/problems/count-the-repetitions/description/?envType=problem-list-v2&envId=dynamic-programming)
 
+Para resolver o problema, simulo a extração da string s2 repetida a partir da string s1 repetida, verificando quantas vezes s2 pode ser obtida como subsequência de s1 concatenado n1 vezes. A cada repetição de s1, acompanho a posição atual em s2 e quantas vezes s2 foi completada. Para acelerar o processo, armazeno em uma tabela os estados já visitados (posição em s2 e índice da repetição de s1) para detectar ciclos. Ao identificar um ciclo, calculo quantas vezes ele pode se repetir, acumulando a contagem de s2 correspondente, e avanço direto no processo, evitando simular cada repetição individualmente. Ao final, divido o total de s2 extraídas por n2 para obter o número máximo m de repetições de str2 que podem ser obtidas de str1.
+
+![466](./assets/466.png)
+
 ## Instalação
 
 **Linguagem**: Scala, Ruby.
