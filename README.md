@@ -12,6 +12,12 @@
 ## Sobre 
 Para explorar o conteúdo do tópico de Programação Dinâmica, a dupla escolheu quatro exercícios de nível DIFÍCIL na plataforma online [LeetCode](https://leetcode.com/).
 
+## Vídeos
+
+### Vídeo apresentando 466 e 1255
+
+https://github.com/user-attachments/assets/f9bc1597-cbc2-43e5-87af-1a82c448f853
+
 ## Screenshots
 
 [123. Best Time to Buy and Sell Stock III - Nível Difícil](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/)
