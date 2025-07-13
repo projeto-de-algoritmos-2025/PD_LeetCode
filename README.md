@@ -14,6 +14,10 @@ Para explorar o conteúdo do tópico de Programação Dinâmica, a dupla escolhe
 
 ## Vídeos
 
+### Vídeo apresentando 123 e 188
+
+https://github.com/user-attachments/assets/91a82e55-2eaf-4e96-a749-98338fd442b1
+
 ### Vídeo apresentando 466 e 1255
 
 https://github.com/user-attachments/assets/f9bc1597-cbc2-43e5-87af-1a82c448f853
@@ -51,4 +55,4 @@ Para resolver o problema, simulo a extração da string s2 repetida a partir da 
 
 ## Instalação
 
-**Linguagem**: Scala, Ruby.
+**Linguagem**: Scala, Ruby e Swift.
